@@ -1,0 +1,23 @@
+.inicial{
+    background: linear-gradient(to right, #00a091 , #49479d);
+    padding: 50px;
+    font-size: 30px;
+    font-family: arial;
+    color:white;
+    border-radius: 25px;
+}
+
+.titulo{
+    font-size: 30px;
+    color:white;
+    font-family: Arial;
+}
+
+.destaques{
+    color: #002d36;
+    font-family: arial;
+    margin-left: 100px;
+    padding: 50px;
+    font-size: 20px;
+}
+

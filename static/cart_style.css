@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.card {
+    width: 600px;
+    margin: 20px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    .imagem-container {
+        height: 150px;
+        background-image: url('produtividade.jpg'); /* Substitua com a sua imagem original */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .conteudo {
+        padding: 20px;
+        align-items: center;
+        color:#002d36;
+
+        h2 {
+            margin-top: 0;
+            align-items: center;
+        }
+
+        .descricao {
+            color: #555;
+            align-items: center;
+        }
+
+        .baixar {
+            display: block;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 150px;
+            align-items: center;
+            padding: 8px 12px;
+            background-color: #002d36;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #00a091;
+            }
+        }
+    }
+}
